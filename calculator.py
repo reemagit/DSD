@@ -12,7 +12,7 @@ def calculator(adjacency, nRw):
                 assumes graph is fully connected.
 
     nRW - the length of random walks used to calculate DSD
-          if nRW = -1, then calculate 
+          if nRW = -1, then calculate DSD at convergence
 
     returns DSD matrix represented as a numpy array
     """
